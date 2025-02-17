@@ -2,4 +2,27 @@
 
 body{
     font-family: 'Montserrat';
+    background-color: #ebe9e9;
+}
+
+header{
+    font-size: 1.2em;
+    font-weight: 500;
+    box-shadow: 12px 3px 20px black;
+}
+
+
+a:link,
+a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+
+
+
+
+.container{
+    width: 100%;
+  
 }

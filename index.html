@@ -2,100 +2,109 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>e-thriller</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>e-thriller</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
-<body >
+<body>
 
-    <header >
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid d-flex justify-content-between">
-              
-              <!-- menu-hamburger -->
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                                <!-- logo -->
-                                <a class="navbar-brand mx   -auto" href="#">
-                                    <img src="img/thriller-logo.png" alt="" width="200">
-                                  </a>
-              </button>
-          
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto"> <!-- centraliza o menu -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
-                      </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Shope
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Camisetas</a></li>
-                      <li><a class="dropdown-item" href="#">Moletons</a></li>
-                      <li><a class="dropdown-item" href="#">Jaquetas</a></li>
-                      <li><a class="dropdown-item" href="#">Calças</a></li>
-                      <li><a class="dropdown-item" href="#">Shorts</a></li>
-                      <li><a class="dropdown-item" href="#">Acessórios</a></li>
-                     
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
-                  </li>
-                </ul>
-                
-                <!-- logo -->
-                <a class="navbar-brand mx-auto" href="#">
-                  <img class="" src="img/thriller-logo.png" alt="" width="200">
-                </a>
-          
-                <!-- pesquisa -->
-                <form class="d-flex justify-content-center w-25" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-          
-              </div>
-            </div>
-          </nav>
-        
+  <header>
+    <nav class="navbar navbar-expand-md bg-white">
+      <div class="container-fluid d-flex justify-content-between">
 
-    </header>
-
-    <section id="slide">
-      <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="img-fluid" src="/img/afterhours.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img class="img-fluid" src="/img/igor-tyler.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <!-- menu-hamburger -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+          aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <!-- logo -->
+          <a class="navbar-brand mx   -auto" href="#">    </a>
+          <img src="img/thriller-logo.png" alt="" width="200">
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+
+        <div class="collapse navbar-collapse " id="nav">
+          <ul class="navbar-nav d-flex justify-content-center"> <!-- centraliza o menu -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Shope
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Discos</a></li>
+                <li><a class="dropdown-item" href="#">Capas</a></li>
+                <li><a class="dropdown-item" href="#">Acessórios</a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+          </ul>
+
+          <!-- logo -->
+          <a class="navbar-brand mx-auto" href="#">
+            <img class="d-sm-none d-md-block" src="img/thriller-logo.png" alt="" width="200">
+          </a>
+
+          <!-- pesquisa -->
+          <form class="d-flex justify-content-center" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+
+        </div>
       </div>
-    </section>
+    </nav>
+
+
+  </header>
+
+  <section id="slide">
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators ">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner  ">
+              <div class="carousel-item active">
+                <img class="img-fluid rounded" src="/img/after-hours.webp " class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img class="img-fluid rounded" src="/img/after-hours.webp " class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img class="img-fluid rounded" src="/img/after-hours.webp " class="d-block w-100" alt="...">
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
 
 </body>
 
