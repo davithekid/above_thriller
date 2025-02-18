@@ -15,7 +15,7 @@
 
   <header>
     <nav class="navbar navbar-expand-md bg-white">
-      <div class="container-fluid d-flex justify-content-between">
+      <div class="container-fluid d-flex justify-content-between mb-2">
 
         <!-- menu-hamburger -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
@@ -27,49 +27,51 @@
         </button>
 
         <div class="collapse navbar-collapse " id="nav">
-          <ul class="navbar-nav d-flex justify-content-center"> <!-- centraliza o menu -->
+          <ul class="navbar-nav d-flex justify-content-center"> 
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
+              <a class="" href="#">Sobre</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Shope
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Discos</a></li>
-                <li><a class="dropdown-item" href="#">Capas</a></li>
                 <li><a class="dropdown-item" href="#">Acessórios</a></li>
+                <li><a class="dropdown-item" href="#">Posters</a></li>
 
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
+              <a class="" href="#">Sobre</a>
             </li>
           </ul>
 
           <!-- logo -->
-          <a class="navbar-brand mx-auto" href="#">
-            <img class="d-sm-none d-md-block" src="img/thriller-logo.png" alt="" width="200">
+          <a id="logo" class="navbar-brand mx-auto" href="#">
+            <img class="d-none d-md-block" src="img/thriller-logo.png" alt="" width="200">
           </a>
 
           <!-- pesquisa -->
           <form class="d-flex justify-content-center" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <button class="btn btn-outline-warning" type="submit">Search</button>
           </form>
 
         </div>
       </div>
     </nav>
 
-
   </header>
+  <!-- fim header -->
 
+  <!-- section slide -->
   <section id="slide">
-    <div class="container mt-3">
+    <div class="container mt-4">
       <div class="row">
         <div class="col-md-12">
+          <!-- começo slide -->
           <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators ">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -84,10 +86,10 @@
                 <img class="img-fluid rounded" src="/img/after-hours.webp " class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item active">
-                <img class="img-fluid rounded" src="/img/after-hours.webp " class="d-block w-100" alt="...">
+                <img class="img-fluid rounded" src="/img/flower-boy.webp" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item active">
-                <img class="img-fluid rounded" src="/img/after-hours.webp " class="d-block w-100" alt="...">
+                <img class="img-fluid rounded" src="/img/ariaa.jpg" class="d-block w-100" alt="...">
               </div>
 
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -102,10 +104,68 @@
               </button>
             </div>
           </div>
+          <!-- fim slide -->
         </div>
       </div>
   </section>
+  <!-- fim sessao slide -->
 
+<section id="conteudo">
+
+  <div class="container">
+    <h2 class="text-center mt-4">Destaques</h2>
+    <div class="row mt-5">
+      <div class="col-md-3">
+        <div class="card p-3" style="width: 18rem;">
+          <img src="/img/disco-ariana.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Ariana Grande - thank you, next</p>
+            <p class="card-text">R$300,00</p>
+            <a href="#" class="btn btn-danger">comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3" style="width: 18rem;">
+          <img src="/img/disco-ariana.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Ariana Grande - thank you, next</p>
+            <p class="card-text">R$300,00</p>
+            <a href="#" class="btn btn-danger ">comprar</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="card p-3" style="width: 18rem;">
+          <img src="/img/disco-ariana.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Ariana Grande - thank you, next</p>
+            <p class="card-text">R$300,00</p>
+            <a href="#" class="btn btn-danger">comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3" style="width: 18rem;">
+          <img src="/img/disco-ariana.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Ariana Grande - thank you, next</p>
+            <p class="card-text">R$300,00</p>
+            <a href="#" class="btn btn-danger">comprar</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+  
+ 
+  
+  
+  
+  
 </body>
 
 </html>
