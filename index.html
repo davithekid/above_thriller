@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>e-thriller</title>
+  <title>Above Thriller</title>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -14,32 +14,31 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-md bg-white">
+    <nav class="navbar fixed-top navbar-expand-md bg-white ">
       <div class="container-fluid d-flex justify-content-between mb-2">
 
         <!-- menu-hamburger -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
-          aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
+          aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           <!-- logo -->
-          <a class="navbar-brand mx   -auto" href="#">    </a>
+          <a class="navbar-brand mx   -auto" href="#"> </a>
           <img src="img/thriller-logo.png" alt="" width="200">
         </button>
 
         <div class="collapse navbar-collapse " id="nav">
-          <ul class="navbar-nav d-flex justify-content-center"> 
+          <ul class="navbar-nav d-flex justify-content-center">
             <li class="nav-item">
               <a class="" href="#">Sobre</a>
             </li>
             <li class="nav-item dropdown">
-              <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
+              <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Shope
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Discos</a></li>
-                <li><a class="dropdown-item" href="#">Acessórios</a></li>
-                <li><a class="dropdown-item" href="#">Posters</a></li>
+                <li><a class="dropdown-item" href="#discos">Discos</a></li>
+                <li><a class="dropdown-item" href="#acessorios">Acessórios</a></li>
+                <li><a class="dropdown-item" href="#posters">Posters</a></li>
 
               </ul>
             </li>
@@ -67,12 +66,12 @@
   <!-- fim header -->
 
   <!-- section slide -->
-  <section id="slide">
-    <div class="container mt-4">
+  <section id="slide " class="slider">
+    <div class="container mt-5">
       <div class="row">
         <div class="col-md-12">
           <!-- começo slide -->
-          <div id="carouselExampleIndicators" class="carousel slide">
+          <div id="carouselExampleIndicators " class="carousel slide">
             <div class="carousel-indicators ">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -110,73 +109,159 @@
   </section>
   <!-- fim sessao slide -->
 
-<section id="conteudo">
+  <section id="conteudo">
 
-  <div class="container">
-    <h2 class="text-center mt-4">Destaques</h2>
-    <div class="row mt-5">
-      <div class="col-md-3">
-        <div class="card p-3" style="width: 18rem;">
-          <img src="/img/disco-ariana.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Ariana Grande - thank you, next</p>
-            <p class="card-text">R$300,00</p>
-            <a href="#" class="btn btn-danger">comprar</a>
+    <div id="discos" class="container">
+      <h2 class="destaque text-center mt-4">Destaques</h2>
+      <h2 class="mt-5">Discos</h2>
+      <div class="row mt-3">
+        <div class="col-md-3">
+          <div class="card p-3" style="width: 18rem;">
+            <img src="/img/disco-position.jpg" class="card-img-top mt-5" alt="...">
+            <div class="card-body">
+              <p class="card-text mt-5">Ariana Grande - Positions</p>
+              <p class="card-text">R$300,00</p>
+              <a href="#" class="btn btn-danger">comprar</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card p-3" style="width: 18rem;">
-          <img src="/img/disco-ariana.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Ariana Grande - thank you, next</p>
-            <p class="card-text">R$300,00</p>
-            <a href="#" class="btn btn-danger ">comprar</a>
+        <div class="col-md-3">
+          <div class="card p-3" style="width: 18rem;">
+            <img src="/img/disco-flower-boy.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text d-inline">Tyler, the creator - Flower Boy</p>
+              <p class="card-text mt-2">R$300,00</p>
+              <a href="#" class="btn btn-danger ">comprar</a>
+            </div>
           </div>
         </div>
-      </div>
-      
-      <div class="col-md-3">
-        <div class="card p-3" style="width: 18rem;">
-          <img src="/img/disco-ariana.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Ariana Grande - thank you, next</p>
-            <p class="card-text">R$300,00</p>
-            <a href="#" class="btn btn-danger">comprar</a>
+
+        <div class="col-md-3">
+          <div class="card p-3" style="width: 18rem;">
+            <img src="/img/disco-afterhours.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">The Weeknd - After Hours</p>
+              <p class="card-text mt-4">R$300,00</p>
+              <a href="#" class="btn btn-danger">comprar</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card p-3" style="width: 18rem;">
-          <img src="/img/disco-ariana.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Ariana Grande - thank you, next</p>
-            <p class="card-text">R$300,00</p>
-            <a href="#" class="btn btn-danger">comprar</a>
+        <div class="col-md-3">
+          <div class="card p-3" style="width: 18rem;">
+            <img src="/img/disco-1989.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Taylor Swift - 1989</p>
+              <p class="card-text">R$300,00</p>
+              <a href="#" class="btn btn-danger">comprar</a>
+            </div>
           </div>
         </div>
+
+        <div id="posters" class="container">
+          <h2 class="mt-5">Posters</h2>
+          <div class="row mt-3">
+            <div class="col-md-3">
+              <div class="card p-3" style="width: 18rem;">
+                <img src="/img/jb_poster.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Justin Bieber</p>
+                  <p class="card-text text-warning">R$120,00</p>
+                  <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card p-3" style="width: 18rem;">
+                <img src="/img/ariana-poster2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Ariana Grande</p>
+                  <p class="card-text text-warning">R$120,00</p>
+                  <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card p-3" style="width: 18rem;">
+                <img src="/img/lana-poster.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Lana Del Rey</p>
+                  <p class="card-text text-warning">R$120,00</p>
+                  <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card p-3" style="width: 18rem;">
+                <img src="/img/sabrina-poster.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Sabrina Carpenter</p>
+                  <p class="card-text text-warning">R$120,00</p>
+                  <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div id="acessorios" class="container">
+          <h2 class="mt-5">Acessórios</h2>
+          <div class="row mt-3">
+            <div class="col-md-3">
+              <div class="card p-3" style="width: 18rem;">
+                <img src="/img/acessorio_wlr.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Playboi Carti - whole lotta red</p>
+                  <p class="card-text">R$120,00</p>
+                  <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card p-3" style="width: 18rem;">
+                <img src="/img/anel_blond.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Frank Ocean - Blonde</p>
+                  <p class="card-text">R$120,00</p>
+                  <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card p-3" style="width: 18rem;">
+                <img src="/img/pulseira_floweboy.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Tyler, the creator - Flower Boy</p>
+                  <p class="card-text">R$120,00</p>
+                  <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card p-3" style="width: 18rem;">
+                <img src="/img/anel_mfdoom.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">MF Doom - MADVILLAINY</p>
+                  <p class="card-text">R$120,00</p>
+                  <a href="#" class="btn btn-danger">Comprar</a>
+                </div>
+              </div>
+            </div>
+
+
+  </section>
+
+
+  <footer class="p-5 mt-5" style="background-color: black;">
+    <div class="container" style="background-color: black;">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center text-white">&copy; <b>above thriller</b> 2025, todos os direitos reservados.</p>
+        </div>
       </div>
-      
     </div>
-  </div>
-</section>
-  
- 
-<footer class="p-5 mt-5" style="background-color: black;">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <p class="text-center text-white">&copy;e-thriller 2025. Todos os direitos reservados.</p>
-      </div>
-    </div>
-  </div>
+  </footer>
 
-
-</footer>
-  
-  
-  
-  
 </body>
 
 </html>
