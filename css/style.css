@@ -48,27 +48,27 @@ header a:hover{
 
 
 /* slide */
-
-
 .carousel-inner{
     width: 100%;
-   
 }
+
 
 /* conteudo */
 
+/* titulos */
 h2{
     font-weight: 700;
-    letter-spacing: 0.04em  ;
+    letter-spacing: 0.04em;
     color: #c79d33;
 }
 
-
+/* titulo */
 #conteudo .destaque  {
+    font-size: 2.5em;
     font-weight: 700;
     letter-spacing: 0.04em  ;
     color: #c79d33;
-    border-bottom: 3px solid #c79d33;;
+    border-bottom: 5px solid #c79d33;;
 }
 
 
